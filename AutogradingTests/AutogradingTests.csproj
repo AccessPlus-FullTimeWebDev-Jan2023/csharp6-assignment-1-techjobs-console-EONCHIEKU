@@ -29,6 +29,7 @@
     <Content Include="**/*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Compile Remove="JobData.cs" />
     <Content Include="TestCaseInsensitiveSearch.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
